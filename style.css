@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f6f8fb;
+  color: #222;
+}
+
+header {
+  background: #0b4f4a;
+  color: white;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 42px;
+  margin: 0;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 20px;
+  background: white;
+  color: #0b4f4a;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.btn.secondary {
+  background: #1aa79b;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background: white;
+  padding: 15px;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0b4f4a;
+  font-weight: bold;
+}
+
+section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  color: #0b4f4a;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  font-weight: bold;
+}
+
+ul {
+  line-height: 1.8;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+}
+
+input, textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  padding: 12px;
+  background: #0b4f4a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: white;
+}
+
+.small {
+  font-size: 13px;
+  color: gray;
+  margin-top: 10px;
+}
